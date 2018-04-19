@@ -9350,9 +9350,14 @@ body {
 .cid-qPA2FZqtSJ {
   background-image: url("../../../assets/images/mbr-4-1620x1080.jpg");
 }
+.cid-qPA2FZqtSJ .media-container-row {
+  flex-direction: row-reverse;
+}
 @media (min-width: 992px) {
   .cid-qPA2FZqtSJ .mbr-figure {
     padding-right: 4rem;
+    padding-right: 0;
+    padding-left: 4rem;
   }
 }
 @media (max-width: 991px) {
